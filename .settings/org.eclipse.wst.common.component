@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="RestApi">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <dependent-module archiveName="jaxb-impl-2.2.3-1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jaxb-impl-2.2.3-1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jackson-xc-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jackson-xc-1.9.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jackson-mapper-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jackson-mapper-asl-1.9.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="stax-api-1.0-2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/stax-api-1.0-2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jaxb-api-2.2.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jaxb-api-2.2.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jersey-server-1.17.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jersey-server-1.17.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jackson-core-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jackson-core-asl-1.9.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jettison-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jettison-1.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jersey-server-1.17.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jersey-server-1.17.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jersey-core-1.17.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jersey-core-1.17.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jackson-jaxrs-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jackson-jaxrs-1.9.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jersey-json-1.17.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jersey-json-1.17.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jersey-servlet-1.17.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jersey-servlet-1.17.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/activation-1.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jersey-client-1.17.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jersey-client-1.17.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="com.sun.jersey.jersey-servlet-1.17.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/com.sun.jersey.jersey-servlet-1.17.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="asm-3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/asm-3.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jersey-core-1.17.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Downloads/jersey-20231102T100353Z-001/jersey/jersey-core-1.17.1.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.5-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Hedi/Desktop/mysql-connector-java-5.1.5-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                
+        
+        
+        <property name="context-root" value="RestApi"/>
+                                
+        
+        
+        <property name="java-output-path" value="/RestApi/build/classes"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
