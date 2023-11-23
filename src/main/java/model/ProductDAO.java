@@ -91,7 +91,7 @@ public class ProductDAO {
             statement.setDouble(2, produit.getPrix());
             statement.setInt(3, produit.getQuantite());
             statement.setInt(4, produit.getFkcategorie());
-            statement.setInt(5, produit.getCode()); // Use the product code for the WHERE clause
+            statement.setInt(5, produit.getCode()); 
             statement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
