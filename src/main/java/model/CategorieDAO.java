@@ -1,12 +1,17 @@
-public class CategorieDAO {
+package model;
 
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class CategorieDAO {
     private static final String URL = "jdbc:mysql://localhost:3306/bd_produit";
     private static final String USER = "root";
     private static final String PASSWORD = "";
 
     public CategorieDAO() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+        	Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -44,41 +49,16 @@ public class CategorieDAO {
     }
 
     public categorie getCategorieById(int id) {
-        categorie category = null;
-        try (Connection connection = getConnection();
-             PreparedStatement statement = connection.prepareStatement("SELECT * FROM categories WHERE id = ?")) {
-            statement.setInt(1, id);
-            try (ResultSet resultSet = statement.executeQuery()) {
-                if (resultSet.next()) {
-                    category = new categorie();
-                    category.setCode(resultSet.getInt("id"));
-                    category.setLib(resultSet.getString("lib"));
-                }
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return category;
+        // Implement code to retrieve a category by ID
+        return null;
     }
 
     public void updateCategorie(categorie categorie) {
-        try (Connection connection = getConnection();
-             PreparedStatement statement = connection.prepareStatement("UPDATE categories SET lib = ? WHERE id = ?")) {
-            statement.setString(1, categorie.getLib());
-            statement.setInt(2, categorie.getCode());
-            statement.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        // Implement code to update a category
     }
 
     public void deleteCategorie(int id) {
-        try (Connection connection = getConnection();
-             PreparedStatement statement = connection.prepareStatement("DELETE FROM categories WHERE id = ?")) {
-            statement.setInt(1, id);
-            statement.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        // Implement code to delete a category by ID
     }
 }
+
