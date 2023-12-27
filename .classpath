@@ -109,5 +109,25 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/com.sun.jersey.jersey-servlet-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jackson-jaxrs-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jackson-xc-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jaxb-api-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jaxb-impl-2.2.3-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jersey-client-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jersey-core-1.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jersey-core-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jersey-json-1.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jersey-server-1.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jersey-server-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jersey-servlet-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Desktop/jersey/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hedi/Downloads/jar_files/javax.ws.rs-api-2.0-m09.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
